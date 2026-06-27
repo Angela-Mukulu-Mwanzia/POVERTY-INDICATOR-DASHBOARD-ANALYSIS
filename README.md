@@ -39,6 +39,9 @@ The dashboard aims to help policymakers, NGOs, and business stakeholders make in
 
 ---
 
+<img width="888" height="497" alt="Screenshot 2026-06-27 231445" src="https://github.com/user-attachments/assets/7d65d90e-7095-4890-b650-edbb5704960b" />
+
+
 ### Power Query Transformations Performed
 
 #### Basic Data Cleaning (15 Marks)
