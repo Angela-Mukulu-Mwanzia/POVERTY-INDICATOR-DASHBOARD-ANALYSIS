@@ -1,48 +1,108 @@
-# POVERTY-INDICATOR-DASHBOARD-ANALYSIS
-Interactive Power BI dashboard analyzing 30+ years of global poverty trends, demographic shifts, and economic growth contributions. Features dynamic cross-filtering, drill-down capabilities, and actionable insights into a critical -59.82% economic indicator decline.
+# README.md
 
-# 📊 Poverty Indicator Dashboard
+## Poverty Indicator Analysis – World Bank HNP Dataset
 
-## 📌 Overview
-This repository contains an interactive data visualization dashboard built to analyze a key **Poverty Indicator** across multiple decades (1960–1990). The dashboard dissects the metric by **Sex**, **Age Group**, and **Country** to uncover underlying demographic and economic vulnerabilities. It highlights a severe -59.82% change over the 10-year period, providing policymakers and analysts with a granular view of the crisis.
+### Student Information
+- **Student Name:** ANGELA MWANZIA  
+- **Student ID:** 663887
 
-## 🎯 Objective
-- Track the drastic decline from **132.13T** (First 10 Years) down to **137bn** (Sum of Index).
-- Identify which demographics (gender/age) are bearing the heaviest burden.
-- Analyze contribution to growth (Increases vs. Decreases) by country and sex.
-- Provide a user-friendly interface for deep-dive analysis via interactive features.
+---
 
-## ✨ Key Interactive Features
-The dashboard is built for exploration, featuring:
-1.  **Slicers (Filters)**: Filter the entire report dynamically using:
-    - **Country** (from the `COUNTRY AND CODE` field).
-    - **Sex** (Total, Male, Female).
-    - **Age Group** (e.g., Y15T64, Y01T14, Y65+).
-2.  **Drill-Down Functionality**: Click on the "Population by Sex (1960-1980)" visual to drill down from **Year** to **Sex** for granular historical analysis.
-3.  **Cross-Filtering**: Click on any data point (e.g., the "Male" segment in the 2020 Sex Breakdown) to instantly filter all other visuals on the page—showcasing the correlation between gender, age, and total index value.
+### Dataset Source
+- **Source:** World Bank – Health, Nutrition and Population Statistics (HNP)  
+- **URL:** [https://data360.worldbank.org/en/dataset/WB_HNP](https://data360.worldbank.org/en/dataset/WB_HNP)  
+- **Kaggle Dataset:** [https://www.kaggle.com/datasets/indrajitshudsusinghe/world-bank-hnp-statistics-19602023-raw-dataset/](https://www.kaggle.com/datasets/indrajitshudsusinghe/world-bank-hnp-statistics-19602023-raw-dataset/)  
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-## 🖥️ Dashboard Components (Visuals)
+---
 
-| Visual | Description | Key Takeaway |
-| :--- | :--- | :--- |
-| **Top KPIs** | High-level cards showing the Sum of Index, Historical total, and % change. | Current Index is **137bn** vs. **132.13T** historically. |
-| **Population by Sex (1960-1980)** | Trend analysis showing the percentage distribution of the indicator by Sex over three decades. | Female share jumped from **~26.94%** (1960) to **~40.09%** (1970). |
-| **Sex Breakdown (2020)** | Current snapshot of the indicator split by Total, Male, and Female. | Total value stands at **263.42bn**. |
-| **Top 5 Age Groups (1st 10 Yrs)** | Bar chart highlighting the age cohorts with the highest cumulative indicator values. | **Y15T64 (Working Age)** dominates at **25T**, followed by **Y01T14 (Children)** at **17T**. |
-| **Top 5 Country Contributions** | Treemap or bar chart showing countries with the highest Increases and Decreases in the indicator. | Both sexes contributed **400T** to growth increases, but Males contributed **171T** vs. Females **79T**. |
-| **1990 Data Comparison** | Supplementary view of age groups specific to the year 1990. | 15-64 age group held the highest share at **0.03T**. |
+### Dataset Overview
+- **Number of Rows:** 50,000+ RECORDS  
+- **Number of Columns:** 17
 
-<img width="888" height="497" alt="Screenshot 2026-06-27 231445" src="https://github.com/user-attachments/assets/8e1a2caa-ce52-4350-a830-19401bf1ace3" />
+---
 
+### Business Problem Being Analyzed
+This analysis examines global poverty indicators to understand:
 
-## 🔍 Key Business & Policy Insights
-1.  **Severe Economic Contraction**: The -59.82% change coupled with the drop to 137bn indicates a structural breakdown in the measured economy/welfare, requiring urgent macroeconomic stabilization.
-2.  **Gender Disparity in Growth**: Male contributions to Increases (171T) vastly outpace Female contributions (79T). However, Males also account for a larger share of Decreases (79T vs 32T), suggesting males are more exposed to economic volatility.
-3.  **Working-Age Crisis**: The "Top 5 Age Groups" clearly shows that the 15-64 demographic (25T) is the primary driver of the poverty metric, implying that labor market conditions and employment stability are the root causes of the overall decline.
+1. **Economic Welfare Trends** – Tracking changes in economic indicators over time to identify periods of contraction or growth.  
+2. **Demographic Shifts** – Understanding how population composition (gender and age) correlates with poverty metrics.  
+3. **Policy Impact Assessment** – Providing data‑driven insights for macroeconomic intervention strategies.  
+4. **Resource Allocation** – Identifying which demographic groups and regions require targeted support programs.
 
-## 🛠️ Technology Stack
-- **Visualization Tool**: Microsoft Power BI Desktop (or Tableau if applicable)
-- **Data Processing**: Excel / CSV (Data connection required)
-- **Languages**: DAX (Measures), M (Power Query)
+The dashboard aims to help policymakers, NGOs, and business stakeholders make informed decisions about poverty reduction strategies and resource distribution.
 
-## 📁 Repository Structure
+---
+
+### Power Query Transformations Performed
+
+#### Basic Data Cleaning (15 Marks)
+1. Renamed unclear columns for better readability  
+2. Changed data types to appropriate formats (numeric, text, date)  
+3. Removed duplicate records  
+4. Removed blank rows  
+5. Trimmed and cleaned text columns  
+6. Replaced inconsistent values  
+7. Removed unnecessary columns
+
+#### Intermediate Transformations (20 Marks)
+1. Merged two or more columns  
+2. Created a custom column for computed values  
+3. Created a conditional column for categorization  
+4. Extracted year, month, quarter, and day from date columns  
+5. Filtered rows using at least two conditions  
+6. Sorted data meaningfully  
+7. Added an index column
+
+#### Advanced Power Query Tasks (25 Marks)
+1. Merged queries using a common key  
+2. Appended two related datasets  
+3. Pivoted a column  
+4. Unpivoted columns  
+5. Created a parameter and used it to filter data  
+6. Created a date table in Power Query  
+7. Used **Group By** with multiple aggregations  
+8. Extracted text before/after a delimiter  
+9. Removed/handled errors in a column  
+10. Created business categories using nested conditional logic  
+11. Created a summarized query using Reference Query  
+12. Used Column Profiling to identify data quality issues
+
+---
+
+### Dashboard Visuals Created
+
+#### KPI Cards (3 Marks)
+- 3 KPI cards showing key metrics
+
+#### Charts and Visuals
+1. **Bar Chart** (3 Marks)  
+2. **Column Chart** (3 Marks)  
+3. **Line Chart** showing a trend (3 Marks)  
+4. **Pie/Donut Chart** (3 Marks)  
+5. **Table Visual** (3 Marks)  
+6. **Matrix Visual** (3 Marks)  
+7. **Map/Filled Map** (3 Marks)  
+8. Two additional meaningful visuals (4 Marks)
+
+#### Interactive Features
+- **3 Slicers** for data filtering (3 Marks)  
+- **Drill‑down** enabled on one visual (2 Marks)  
+- **Cross‑filtering** demonstrated between visuals (2 Marks)
+
+---
+
+### Business Insights from the Dashboard
+
+#### Insight 1: Severe Economic Contraction
+The dashboard shows a drastic collapse, with the total for the first 10 years at 132.13T but the current Sum of Index dropping to just 137bn, representing a **−59.82%** negative change. This signals a massive structural decline in economic welfare or asset value, urging immediate macroeconomic intervention to halt the bleeding.
+
+#### Insight 2: Significant Demographic Shift Toward Female Prevalence
+Over the 20‑year period from 1960 to 1980, the female share of the population metric skyrocketed from **24.03%** to **43.93%** (nearly doubling). Combined with the 2020 Sex Breakdown, this indicates that women are becoming an increasingly dominant cohort in this dataset. Any recovery strategy must prioritise female‑targeted financial inclusion and support programs to reverse this trend.
+
+#### Insight 3: Working‑Age Population Bears the Heaviest Burden
+The *Top 5 Age Groups* visual is overwhelmingly dominated by the **Y15T64** (working‑age, 15–64) cohort, eclipsing all other age bands. This implies that employment instability and labour market pressures are the primary drivers of the poverty indicator, meaning job creation and wage protection must be the central focus of any corrective business or governmental policy.
+
+---
+
+<img width="896" height="495" alt="Screenshot 2026-06-27 232743" src="https://github.com/user-attachments/assets/27ab0738-c4f5-4455-ac0b-1063fa6a3fd2" />
