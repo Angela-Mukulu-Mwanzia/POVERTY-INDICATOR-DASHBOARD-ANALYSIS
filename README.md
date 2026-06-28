@@ -17,7 +17,7 @@
 ---
 
 ### Power BI .pbix file
-https://drive.google.com/file/d/1kZMC0lo0ORAE6oz-jJN-1Ds2h__vwpEl/view?usp=drive_link 
+https://drive.google.com/file/d/1NTL9dijKTjsx_sKrMl1LxYZIYwfTQiqv/view?usp=drive_link
 
 
 ---
@@ -40,7 +40,8 @@ The dashboard aims to help policymakers, NGOs, and business stakeholders make in
 
 ---
 
-<img width="888" height="497" alt="Screenshot 2026-06-27 231445" src="https://github.com/user-attachments/assets/7d65d90e-7095-4890-b650-edbb5704960b" />
+<img width="765" height="499" alt="Screenshot 2026-06-28 161539" src="https://github.com/user-attachments/assets/65b07d15-f86c-40d5-94e4-fd16d62c6201" />
+
 
 
 ### Power Query Transformations Performed
@@ -114,4 +115,5 @@ The *Top 5 Age Groups* visual is overwhelmingly dominated by the **Y15T64** (wor
 
 ---
 
-<img width="896" height="495" alt="Screenshot 2026-06-27 232743" src="https://github.com/user-attachments/assets/27ab0738-c4f5-4455-ac0b-1063fa6a3fd2" />
+<img width="757" height="495" alt="Screenshot 2026-06-28 161730" src="https://github.com/user-attachments/assets/fe373620-10e4-4318-9126-2f7d77725c05" />
+
