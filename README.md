@@ -40,7 +40,8 @@ The dashboard aims to help policymakers, NGOs, and business stakeholders make in
 
 ---
 
-<img width="765" height="499" alt="Screenshot 2026-06-28 161539" src="https://github.com/user-attachments/assets/65b07d15-f86c-40d5-94e4-fd16d62c6201" />
+<img width="888" height="497" alt="Screenshot 2026-06-27 231445" src="https://github.com/user-attachments/assets/8278de51-d678-474c-924e-18402b4d532a" />
+
 
 
 
@@ -115,5 +116,6 @@ The *Top 5 Age Groups* visual is overwhelmingly dominated by the **Y15T64** (wor
 
 ---
 
-<img width="757" height="495" alt="Screenshot 2026-06-28 161730" src="https://github.com/user-attachments/assets/fe373620-10e4-4318-9126-2f7d77725c05" />
+<img width="757" height="495" alt="Screenshot 2026-06-28 161730" src="https://github.com/user-attachments/assets/5b97ad2d-0068-4f6e-a8d9-fd64b088a64e" />
+
 
